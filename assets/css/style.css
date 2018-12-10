@@ -9,11 +9,13 @@ header {
     height: 80px;
     width: 100%;
     margin: 0;
+    border-bottom: 2.5pt solid #ccc;
+
+    /* Position */
     position: absolute;
     left: 0;
     right: 0;
     top: 0;
-    border-bottom: 2.5pt solid #ccc;
 }
 
 footer {
@@ -48,6 +50,8 @@ footer {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
     width: 960px;
+
+    /* Center */
     margin-left: auto;
     margin-right: auto;
 }
@@ -97,16 +101,17 @@ footer {
 #bodSec {
     width: 960px;
     background-color: #fff;
+    border: 1px solid #ddd;
+
+    /* Margins */
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
     margin-bottom: 10px;
+
+    /* Position */
     position: relative;
     top: 110px;
-    border: 1px solid #ddd;
-    /* padding-top: 20px;
-    padding-left: 20px;
-    padding-right: 20px; */
 }
 
 #bodSec:after {
@@ -125,33 +130,42 @@ footer {
 
 #pageTitle {
     width: auto;
+    border-bottom: 2.5pt solid #ccc;
+    padding-bottom: 20px;
+
+    /* Margins */
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 20px;
-    border-bottom: 2.5pt solid #ccc;
+
+    /* Position */
     position: relative;
     top: 20px;
-    padding-bottom: 20px;
 }
 
 #meImg {
     width: 100px;
     height: 125px;
+
+    /* Padding */
     padding-top: 0;
     padding-left: 20px;
     padding-bottom: 20px;
     padding-right: 20px;
+
     float: left;
 }
 
 article {
+    width: auto;
+    margin: 0;
+
+    /* Padding */
     padding-top: 0;
     padding-left: 20px;
     padding-bottom: 20px;
     padding-right: 20px;
-    width: auto;
-    margin: 0;
 }
 
 p {
@@ -167,31 +181,31 @@ footer:after {
 }
 
 form {
+    width: auto;
+
+    /* Padding */
     padding-top: 0;
     padding-left: 20px;
     padding-bottom: 20px;
     padding-right: 20px;
-    width: auto;
+
+    /* Margin */
     margin-left: auto;
     margin-right: auto;
 }
 
 input, textarea {
-    /* To make sure that all text fields have the same font settings
-        By default, textareas have a monospace font */
+    /* Font */
     font-family: Arial, Helvetica, sans-serif;
     line-height: 24pt;
     color: #777;
     
-
-    /* To give the same size to all text fields */
+    /* Size */
     width: 100%;
     margin-left: auto;
     margin-right: auto;
     box-sizing: border-box;
     padding-left: 10px;
-
-    /* To harmonize the look & feel of text field border */
     border: 1px solid #ddd;
 }
 
@@ -201,10 +215,7 @@ input:focus, textarea:focus {
 }
 
 textarea {
-    /* To properly align multiline text fields with their labels */
     vertical-align: top;
-
-    /* To give enough room to type some text */
     height: 15em;
 }
 
@@ -215,15 +226,18 @@ textarea {
 }
 
 button {
-    display: inline-block;
     background-color: #4aaaa5;
     border: none;
     color: #fff;
     text-align: center;
+
     padding: 10px;
     width: 100px;
+
+    display: inline-block;
     transition: all 0.5s;
     cursor: pointer;
+
     margin-top: 0;
     margin-left: 20px;
     margin-bottom: 20px;
@@ -236,7 +250,6 @@ button {
 }
 
 .label {
-    display: inline-block;
     background-color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
     border: none;
@@ -244,10 +257,14 @@ button {
     text-align: center;
     padding: 10px;
     width: 180px;
+
+    display: inline-block;
+
     margin-top: 0;
     margin-left: 20px;
     margin-bottom: 20px;
     margin-right: 20px;
+
     position: relative;
     right: 20px;
     bottom: 60px;
@@ -260,10 +277,12 @@ button {
 ,#rockPaperScissors {
     height: 200px;
     width: 200px;
+
     margin-top: 10px;
     margin-left: 0px;
     margin-bottom: 20px;
     margin-right: 20px;
+    
     position: relative;
 }
 
